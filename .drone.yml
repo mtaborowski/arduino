@@ -13,7 +13,6 @@ steps:
   commands:
   - echo "hello world"
   - cd /home/mita
-  - cp ./README.md ~/README.md
   - ls -la
   
   trigger:
