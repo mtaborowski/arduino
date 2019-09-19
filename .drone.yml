@@ -6,7 +6,7 @@ server:
   host: vps603346.ovh.net
   user: mita
   password:
-    from_secret: 114904
+    from_secret: password
 
 steps:
 - name: greeting
