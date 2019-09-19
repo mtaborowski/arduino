@@ -11,8 +11,9 @@ server:
 steps:
 - name: greeting
   commands:
-  - echo hello world
+  - echo "hello world"
   - cp README.* ~
+  - pwd
   
   trigger:
     branch:
