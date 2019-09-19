@@ -1,1 +1,20 @@
+kind: pipeline
+type: ssh
+name: default
 
+server:
+  host: vps603346.ovh.net
+  user: mita
+  password:
+    from_secret: 114904
+
+steps:
+- name: greeting
+  commands:
+  - echo hello world
+  
+  trigger:
+    branch:
+    - develop
+    event:
+    - push
