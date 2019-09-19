@@ -13,7 +13,7 @@ steps:
   commands:
   - echo "hello world"
   - cp ./README.md ~/README.md
-  - pwd
+  - ls -la
   
   trigger:
     branch:
