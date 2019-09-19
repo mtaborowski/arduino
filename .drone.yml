@@ -12,6 +12,7 @@ steps:
 - name: greeting
   commands:
   - echo "hello world"
+  - cd /home/mita
   - cp ./README.md ~/README.md
   - ls -la
   
