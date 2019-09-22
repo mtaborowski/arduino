@@ -12,8 +12,7 @@ steps:
     key:
       from_secret: ovh_key
     target: /home/mita/tmp
-    source:
-      - *.*
+    source: *.*
 
  
   
