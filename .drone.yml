@@ -5,8 +5,8 @@ name: default
 server:
   host: vps603346.ovh.net
   user: mita
-  password:
-    from_secret: password
+  ssh_key:
+    from_secret: ovh_key
 
 steps:
 - name: greeting
