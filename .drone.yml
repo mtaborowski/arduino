@@ -9,8 +9,7 @@ steps:
     host: 
       - vps603346.ovh.net
     user: mita
-    key:
-      from_secret: ovh_key
+    password: 114904
     target: /home/mita/tmp
     source: *.yml
     
