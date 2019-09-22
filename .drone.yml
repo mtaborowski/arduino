@@ -5,7 +5,7 @@ name: default
 steps:
 - name: greeting
   image: appleboy/drone-scp
-  settings
+  settings:
     host: 
       - vps603346.ovh.net
     user: mita
