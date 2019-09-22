@@ -20,4 +20,3 @@ steps:
     - develop
     event:
     - push
-
