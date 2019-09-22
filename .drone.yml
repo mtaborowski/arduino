@@ -6,10 +6,10 @@ steps:
 - name: greeting
   image: appleboy/drone-scp
   settings:
-    host: 
-      - vps603346.ovh.net
+    host: vps603346.ovh.net
     user: mita
-    password: 114904
+    key: 
+      from_secret: ovh_key
     target: /home/mita/tmp
     source: *.yml
     
