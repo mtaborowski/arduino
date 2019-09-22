@@ -10,8 +10,8 @@ steps:
     user: mita
     key: 
       from_secret: ovh_key
-    target: /home/mita
-    source: *.yml
+    target: "/home/mita/tmp"
+    source: "*.yml"
     
   trigger:
     branch:
